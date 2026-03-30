@@ -1,0 +1,7 @@
+metric,value
+HGI rows,5426.0
+SVI rows,3144.0
+Initial naive join match rate,0.9327
+FIPS mapping rate,0.9991
+Final HGI-to-SVI join rate,0.9799
+Missing numeric ratings,2560.0
