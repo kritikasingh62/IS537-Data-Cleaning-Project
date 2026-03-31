@@ -22,16 +22,16 @@ The goal is to evaluate how inconsistencies in geographic identifiers affect dat
 ## Key Results
 - Naive join match rate: ~93%
 - FIPS mapping rate: ~99.9%
-- Final integration rate: ~98%
+- Final integration join rate: ~98%
 
 ## Repository Structure
 - `data/raw/` → original datasets
 - `data/processed/` → cleaned and merged datasets
-- `notebooks/` → data cleaning pipeline
-- `report/` → progress report
+- data cleaning pipeline
+- Progress report
 
 ## How to Run
-Open `notebooks/data_cleaning_pipeline.ipynb` and run all cells.
+Open `data_cleaning_pipeline.ipynb` and run all cells.
 
 ## Author
 Kritika Singh
