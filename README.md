@@ -28,7 +28,7 @@ The goal is to evaluate how inconsistencies in geographic identifiers affect dat
 - `data/raw/` → original datasets
 - `data/processed/` → cleaned and merged datasets
 - data cleaning pipeline
-- Progress report
+- `reports/` → plan and progress reports
 
 ## How to Run
 Open `data_cleaning_pipeline.ipynb` and run all cells.
