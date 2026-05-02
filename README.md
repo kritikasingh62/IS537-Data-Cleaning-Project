@@ -1,9 +1,9 @@
 # Data Cleaning Project – Hospital Quality & Social Vulnerability
 
 ## Overview
-This project analyzes how data cleaning impacts integration between hospital quality data (CMS) and community-level social vulnerability (CDC SVI).
+This project evaluates how data cleaning affects dataset integration and downstream analysis when combining hospital quality data from CMS with county-level social vulnerability data from the CDC Social Vulnerability Index (SVI).
 
-The goal is to evaluate how inconsistencies in geographic identifiers affect dataset linkage and downstream analysis.
+The project focuses on improving geographic identifier consistency and measuring how cleaning changes integration quality, dataset coverage, and analytical reliability.
 
 ## Datasets
 - CMS Hospital General Information (2026)
@@ -23,15 +23,16 @@ The goal is to evaluate how inconsistencies in geographic identifiers affect dat
 - Naive join match rate: ~93%
 - FIPS mapping rate: ~99.9%
 - Final integration join rate: ~98%
+- The relationship between hospital ratings and social vulnerability remained stable before and after cleaning
 
 ## Repository Structure
 - `data/raw/` → original datasets
 - `data/processed/` → cleaned and merged datasets
 - data cleaning pipeline
-- `report/` → plan and progress reports
+- `report/` → plan, progress, and final reports
 
-## How to Run
-Open `data_cleaning_pipeline.ipynb` and run all cells.
+## Reproducibility
+Run data_cleaning_pipeline.ipynb to reproduce the full profiling, cleaning, integration, and evaluation workflow.
 
 ## Author
 Kritika Singh
